@@ -1,0 +1,66 @@
+#bg-cad-vaga {
+    background-image: url(../img/vagas-img2.png);
+    background-size: cover;
+}
+
+#cad-img-vaga {
+    background-image: url(../img/vagas-img1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+#container-cadastro {
+    height: 100%;
+}
+
+#form-container {
+    width: 100%;
+    height: auto;
+    background-color: transparent;
+    border-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+#form-container h2{
+    text-align: left;
+    font-size: 30px;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 20px;
+}
+
+#border-cadastro {
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #f1f1f1;
+    border: none;
+    padding: 30px;
+}
+
+#border-cadastro input, #border-cadastro select, #border-cadastro textarea{
+    background-color: #f1f1f1;
+    border-radius: 12px;
+    color: #462F98;
+}
+
+
+#btn-form {
+    justify-content: end;
+    margin-top: 50px;
+}
+
+select {
+    width:100%;
+    padding:8px;
+    border: 1.5px solid #ccc;
+}
+input{
+    margin: 0 0 20px 0;
+}
+
+label {
+    text-align: left;
+    display: block;
+}

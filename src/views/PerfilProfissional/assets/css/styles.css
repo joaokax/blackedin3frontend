@@ -1,0 +1,99 @@
+/* ESTILO DAS PÁGINAS DE PERFIL    */
+
+.pag-perfil {
+    max-width: 1000px;
+    margin:auto;
+    left: 0;
+    right: 0;
+    padding: 25px;
+    overflow-x: hidden;
+}
+
+.head-perfil {
+    color: #f1f1f1;
+    border-radius: 12px;
+    padding: 20px;
+    height: 100%;
+  }
+
+  #cor-perfil-profissional {
+    background-color: #462F98;
+  }
+
+  .head-perfil h1{
+    font-size: 24px;
+    margin: 10px 0 10px 0;
+  }
+
+  .head-perfil img{
+    width: 100px;
+    height:100px;
+    padding: 3px;
+    margin-top: 50px;
+    border-radius:50%;
+    background-color:#f1f1f1;
+    object-fit: cover;
+  }
+
+  .container-dados-perfil {
+    background-color: transparent;
+    color: #333;
+  }
+
+  .card-perfil{
+      border: 1.5px solid #ddd;
+      border-radius: 12px;
+  }
+.perfil-data {
+  text-align: left;
+}
+
+.btn-perfil-editar {
+    padding: 10px 20px;
+
+    width: 100%;
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+    background-color: #f1f1f1;
+    border-radius: 12px;
+    margin: 10px 0 10px 0;
+    border: none;
+    transition: .2s;
+    color: black;
+}
+
+.btn-perfil-editar:hover {
+    opacity: 0.8;
+    text-decoration: none;
+    color: black;
+}
+
+.btn-perfil-lista {
+    font-size: 16px;
+    font-weight: 600;
+    color: #f1f1f1;
+    border: none;
+    width: 100%;
+    background-color: transparent;
+}
+
+.btn-perfil-deletar {
+    font-size: 12px;
+    font-weight: 600;
+    color: #f1f1f1;
+    border: none;
+    width: 100%;
+    background-color: transparent;
+    margin: 60px 0 20px 0;
+}
+
+@media screen and (max-width: 500px){
+  .perfil-data h6 {
+    text-align: center;
+  }
+
+  .perfil-data p {
+    text-align: center;
+  }
+}

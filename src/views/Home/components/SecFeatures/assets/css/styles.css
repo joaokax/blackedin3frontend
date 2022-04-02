@@ -1,0 +1,40 @@
+.features {
+  background-color: #eef4f7;
+}
+
+.features-container {
+  width: 100%;
+  max-width: 1340px;
+}
+
+.p-color {
+  color: #7d8285;
+}
+
+.box {
+  text-align: center;
+  padding: 30px;
+  background-color: #fff;
+  margin-bottom: 30px;
+}
+
+.icon-red {
+  font-size: 60px;
+  color: #d25e2c;
+  margin-top: 20px;
+  margin-bottom: 35px;
+}
+
+.box-title {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 8px;
+  margin-top: 0;
+  color: inherit;
+}
+
+.desc {
+  font-size: 15px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}

@@ -1,0 +1,23 @@
+.header-blue .hero {
+    text-align: center;
+  }
+  
+  .header-blue .hero h1 {
+    color: #fff;
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-weight: 300;
+    line-height: 1.4;
+  }
+  
+  .header-blue .hero p {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 20px;
+    margin-bottom: 30px;
+    font-weight: 300;
+  }
+  
+  .header-blue .phone-holder {
+    text-align: right;
+  }
